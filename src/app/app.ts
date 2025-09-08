@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('InClassWork');
+
+  name : String | number = "Matt"
+  random = 34343434
+
+
+
 }
